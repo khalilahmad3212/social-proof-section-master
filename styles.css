@@ -25,12 +25,12 @@ h1{
     right: 100px;
 }
 .star2{
-    top: 80px;
+    top: 70px;
     right: 50px;
 }
 .star3{
-    top: 160px;
-    right: 13px;
+    top: 140px;
+    right: 0;
 }
 span{
     margin-left: 25px;
@@ -46,6 +46,7 @@ img{
     border-radius: 11px;
     text-align: left;
     width:375px;
+    padding-bottom: 40px;
 }
 .second-card{
     margin-top: 20px;
