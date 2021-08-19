@@ -1,0 +1,88 @@
+body{
+
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+}
+.row{
+    width: 85%;
+    margin: 2% auto 0;
+    margin-bottom: 0;
+}
+h1{
+    font-weight: 700;
+}
+.star{
+    background-color: hsl(300, 24%, 96%);
+    padding: 2% 3%;
+    width: 450px;
+    border-radius: 10px;
+    position: absolute;
+}
+.star-column{
+    position: relative;
+}
+.star1{
+    right: 100px;
+}
+.star2{
+    top: 80px;
+    right: 50px;
+}
+.star3{
+    top: 160px;
+    right: 13px;
+}
+span{
+    margin-left: 25px;
+}
+img{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.card{
+    color: hsl(0, 0%, 100%);;
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 11px;
+    text-align: left;
+    width:375px;
+}
+.second-card{
+    margin-top: 20px;
+}
+.third-card{
+    margin-top: 40px;
+}
+.card-subtitle{
+    color: hsl(300, 24%, 96%);
+}
+
+@media only screen and (max-width: 990px){
+    .star{
+        position: static;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2% 0;
+        width: 460px;
+    }
+
+    .title{
+        text-align: center;
+    }
+    .row{
+        width: 100%;
+        text-align: center;
+    }
+    span{
+        display: block;
+        margin: 2% 0;
+    }
+    h1{
+        padding: 0 15%;
+    }
+    .card{
+        margin-top: 6%;
+        width: 100%;
+    }
+    
+}
